@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>香港屋宇裝備法規與規範資料庫</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">Hong Kong Building Services Library</p>
+      <h1>香港屋宇裝備法規與作業守則網站</h1>
+      <p class="subtitle">首頁整合 17 個專題資料庫，點擊可進入各自獨立頁面查看法例、作業守則與官方連結。</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>17 個可點擊專題資料庫</h2>
+      <div id="library-grid" class="library-grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>專題總覽（表格）</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>專題</th>
+              <th>重點範圍</th>
+              <th>主要機構／網站</th>
+              <th>資料庫頁面</th>
+            </tr>
+          </thead>
+          <tbody id="overview-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>資料來源以香港政府／法定機構官方網站為主；請以最新公佈版本為準。</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
