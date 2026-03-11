@@ -219,6 +219,23 @@ const libraries = [
       { name: "《工廠及工業經營（安全管理）規例》（第59AF章）", url: "https://www.elegislation.gov.hk/hk/cap59AF", note: "安全管理制度要求" },
       { name: "職安健局（OSHC）實務指引", url: "https://www.oshc.org.hk/", note: "培訓、守則及評估工具" }
     ]
+  },
+  {
+    key: "ai",
+    title: "人工智能（AI）",
+    focus: "香港 AI 法規、私隱、網絡安全及監管指引（截至 2026-03-11）",
+    agency: "香港政府 / PCPD / DPO",
+    page: "AI.html",
+    site: "https://www.info.gov.hk/",
+    regulations: [
+      { name: "香港現況：暫未有單一《AI法》", url: "https://www.info.gov.hk/gia/general/202501/22/P2025012200427.htm", note: "政府回覆：以現行法例按情境監管" },
+      { name: "《個人資料（私隱）條例》（第486章）", url: "https://www.elegislation.gov.hk/hk/cap486", note: "AI 涉及個人資料時適用" },
+      { name: "PCPD《人工智能：個人資料保障模範框架》", url: "https://www.pcpd.org.hk/english/news_events/media_statements/press_20240611.html", note: "2024-06-11 發布，屬合規指引" },
+      { name: "DPO《香港生成式人工智能技術及應用指引》", url: "https://www.digitalpolicy.gov.hk/en/our_work/data_governance/policies_standards/ethical_ai_framework/", note: "政府數字政策辦公室官方指引入口" },
+      { name: "PCPD《僱員使用生成式AI查核清單》", url: "https://www.pcpd.org.hk/english/news_events/media_statements/press_20250331.html", note: "2025-03-31，機構內部管治參考" },
+      { name: "AI 生成不雅影像：現行法例適用（立法會回覆）", url: "https://www.info.gov.hk/gia/general/202601/28/P2026012800297p.htm", note: "2026-01-28，無 AI 專屬罪名但可用現行罪行" },
+      { name: "《保護關鍵基礎設施（電腦系統）條例》（第653章）", url: "https://www.elegislation.gov.hk/hk/cap653", note: "2026-01-01 生效，指定機構須履行網絡安全責任" }
+    ]
   }
 ];
 
